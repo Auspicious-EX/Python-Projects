@@ -51,3 +51,15 @@ books_display = tk.StringVar()
 books_display_label = tk.Label(root, textvariable=books_display, font=("Helvetica", 12))
 books_display_label.grid(row=3, columnspan=2, padx=10, pady=5)
 
+# Create add book button
+add_button = tk.Button(root, text="Add Book", command=add_book_to_library)
+add_button.grid(row=0, column=2, padx=10, pady=10)
+
+# Creating a library
+library = Library()
+
+# Initial display of the number of books
+no_of_books.set(library.get_no_of_books())
+books_display.set(library.display_books())
+
+root.mainloop()
