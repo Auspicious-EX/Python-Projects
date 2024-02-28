@@ -1,3 +1,5 @@
+[![MasterHead](https://github.com/Auspicious-EX/Python-Basics/blob/main/Images/pythin%20basics.gif?raw=true)](https://)
+
 # Python-Projects
 This repository is a curated collection of fun, interesting, and important projects implemented using Python. Whether you're a beginner looking for simple projects to hone your skills or an experienced developer seeking inspiration for your next big project, you'll find something here to spark your creativity.
 
@@ -15,5 +17,14 @@ This repository is a curated collection of fun, interesting, and important proje
 
 # Get Started:
 Ready to explore the world of Python projects? Check out our project directory to browse our collection. Feel free to clone, modify, and experiment with any project that piques your interest.
+
+## Contact
+If you have any questions or need further assistance, feel free to reach out to us at shubhamcollege18@gmail.com.
+
+| Social Media | Link |
+|--------------|------|
+| ![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white) | [Auspicious_EX](https://twitter.com/Auspicious_EX) |
+| ![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white) | [shubhamprajapatiofficial](https://www.instagram.com/shubhamprajapatiofficial) |
+
 
 **Happy coding!**
