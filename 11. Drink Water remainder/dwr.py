@@ -33,7 +33,15 @@ class DrinkWaterReminderApp:
         engine.say(text)
         engine.runAndWait()
 
-
+    def remind(self, interval):
+        reminder_message = "Drink water buddy, it's important. I'll remind you again in one hour."
+        while True:
+            self.speak(reminder_message)
+            winsound.Beep(1000, 500)  # Frequency = 1000Hz, Duration = 500ms
+            self.reminder_count += 1
+            self.reminder_count_label.config(text=f"Reminder count: {self.reminder_count}")
+            self.master.update()  # Update the GUI to reflect the count change
+            time.sleep(interval * 60)
 
     def start_reminder(self):
         interval = int(self.entry.get())
